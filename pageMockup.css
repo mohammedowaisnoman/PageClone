@@ -1,0 +1,75 @@
+table{
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+th{
+    background-color: tomato;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+td{
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+tr:nth-child(even){
+    background-color: royalblue;
+    color: white;
+}
+h1{
+    text-align: center;
+
+}
+p{
+    background-color: wheat;
+
+}
+.image2 , .image3 , .image4 , .image5{
+
+    margin: 10px;
+    height: 300px;
+    width: 280px;
+    text-align:center;
+
+}
+.image1{
+    float:right ;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+
+}
+figure{
+    display: inline-block;
+}
+figcaption{
+    text-align: center;
+    background-color: cornflowerblue;
+    height: auto;
+    width: auto;
+    
+
+}
+nav{
+    background-color:cadetblue ;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 100px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+body{
+    display: inline-block;
+}
+div{
+    display: inline-flex;
+
+}
